@@ -64,4 +64,4 @@ http://localhost:5000/jsontest
 * Pada body, "key" harus string bernama 'image' dengan tipe file, dan "value" berupa file yang ingin diprediksi.
 
 ---
-KlasifikasiNilam adalah repository untuk kode yang digunakan saat PKL KJFD MGM 2020.
+KlasifikasiNilam adalah repository untuk kode yang digunakan saat PKL KJFD MGM 2020, FILKOM Universitas Brawijaya.
