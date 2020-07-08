@@ -4,7 +4,7 @@ KlasifikasiNilam adalah software backend yang berfungsi mengklasifikasikan citra
 
 ## Instalasi (Windows)
 
-```
+```cmd
 C:\KlasifikasiNilam\> python -m venv venv
 C:\KlasifikasiNilam\> venv\Scripts\activate
 (venv) C:\KlasifikasiNilam\> pip install -r requirements.txt
@@ -12,21 +12,21 @@ C:\KlasifikasiNilam\> venv\Scripts\activate
 
 Untuk keluar dari venv:
 
-```
+```cmd
 (venv) C:\KlasifikasiNilam\> venv\Scripts\deactivate.bat
 C:\KlasifikasiNilam\>
 ```
 
 ## Instalasi (Linux)
 
-```
+```bash
 user@localhost:~/KlasifikasiNilam$ python -m venv venv
 user@localhost:~/KlasifikasiNilam$ source venv/bin/activate
 (venv) user@localhost:~/KlasifikasiNilam$ pip install -r requirements.txt
 ```
 
 Untuk keluar dari venv:
-```
+```bash
 (venv) user@localhost:~/KlasifikasiNilam$ deactivate
 user@localhost:~/KlasifikasiNilam$ 
 ```
