@@ -2,12 +2,33 @@
 
 KlasifikasiNilam adalah software backend yang berfungsi mengklasifikasikan citra daun nilam. Ekstraksi fitur yang digunakan adalah kombinasi dari LBP, Convex Hull, dan Morphology, dan pengenalan data menggunakan Extreme Learning Machine.
 
-## Instalasi
+## Instalasi (Windows)
 
 ```
 C:\KlasifikasiNilam\> python -m venv venv
 C:\KlasifikasiNilam\> venv\Scripts\activate
 (venv) C:\KlasifikasiNilam\> pip install -r requirements.txt
+```
+
+Untuk keluar dari venv:
+
+```
+(venv) C:\KlasifikasiNilam\> venv\Scripts\deactivate.bat
+C:\KlasifikasiNilam\>
+```
+
+## Instalasi (Linux)
+
+```
+user@localhost:~/KlasifikasiNilam$ python -m venv venv
+user@localhost:~/KlasifikasiNilam$ source venv/bin/activate
+(venv) user@localhost:~/KlasifikasiNilam$ pip install -r requirements.txt
+```
+
+Untuk keluar dari venv:
+```
+(venv) user@localhost:~/KlasifikasiNilam$ deactivate
+user@localhost:~/KlasifikasiNilam$ 
 ```
 
 ## Kebutuhan
