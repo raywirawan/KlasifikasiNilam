@@ -14,8 +14,11 @@ from algorithm import start
 #==================================================
 #
 # TO TRAIN THE ALGORITHM WITH A NEW DATASET, PLEASE
-# SEND A POST REQUEST TO /train WITH A KEY NAMED
-# "AUTHORIZE" WITH THE VALUE True
+# DELETE "training_features.csv" and "testing_features.csv"
+# INSIDE THE "DATASET/csv" and "DATASET/training" FOLDER. 
+# AFTER THAT, COPY THE NEW DATASET INTO THE FOLDER "DATASET/training". 
+# THEN YOU CAN SEND A POST REQUEST TO /train 
+# WITH A KEY NAMED "AUTHORIZE", WITH THE VALUE True
 #
 #==================================================
 #
@@ -88,7 +91,7 @@ def handle_training():
         return jsonify(
             status="Failed",
             code=-3,
-            message="Dataset training has failed.",
+            message="Training has failed.",
             payload=str(e)
         )
 
@@ -143,7 +146,7 @@ def handle_prediction():
         return jsonify(
             status="Success",
             code=0,
-            message="Image prediction procedure suceeded. ELM confidence:" + prediction[1],
+            message="Image prediction procedure succeeded. ELM confidence:" + prediction[1],
             payload=prediction[0]
         )
 
