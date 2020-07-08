@@ -1,0 +1,12 @@
+#vscode configs
+.vscode
+
+#venv folder
+venv
+
+#pycache
+__pycache__
+algorithm/__pycache__
+
+#personal script
+git push.bat

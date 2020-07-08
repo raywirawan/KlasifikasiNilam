@@ -1,0 +1,1 @@
+web: gunicorn launch_backend:app -b 0.0.0.0:$PORT --preload
