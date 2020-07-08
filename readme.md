@@ -2,6 +2,13 @@
 
 KlasifikasiNilam adalah software backend yang berfungsi mengklasifikasikan citra daun nilam. Ekstraksi fitur yang digunakan adalah kombinasi dari LBP, Convex Hull, dan Morphology, dan pengenalan data menggunakan Extreme Learning Machine.
 
+## Kebutuhan
+
+* Minimal menggunakan Python versi 3.x (disarankan 3.8)
+* Memahami penggunaan virtualenvironment (venv)
+
+Note: Gunicorn hanya bisa digunakan di OS berbasis Linux.
+
 ## Instalasi (Windows)
 
 ```cmd
@@ -30,13 +37,6 @@ Untuk keluar dari venv:
 (venv) user@localhost:~/KlasifikasiNilam$ deactivate
 user@localhost:~/KlasifikasiNilam$ 
 ```
-
-## Kebutuhan
-
-* Minimal menggunakan Python versi 3.x
-* Memahami penggunaan virtualenvironment (venv)
-
-Note: Gunicorn hanya bisa digunakan di OS berbasis Linux.
 
 ## Penggunaan (Windows)
 
