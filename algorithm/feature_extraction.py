@@ -66,8 +66,8 @@ def extract(DATASET_PATH, OUTPUT_FILE):
             length, width = width, length
 
         # Morphology - fit to bounding ellipse
-        ellipse = cv2.fitEllipse(contour)
-        cv2.ellipse(img_with_contour, ellipse, COLOR_GREEN, 1)
+        #ellipse = cv2.fitEllipse(contour)
+        #cv2.ellipse(img_with_contour, ellipse, COLOR_GREEN, 1)
         
         # Morphology - get raw data
         leaf_perimeter = cv2.arcLength(contour, True)
