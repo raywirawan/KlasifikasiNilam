@@ -154,8 +154,8 @@ def handle_prediction():
         return jsonify(
             status="Fatal Error",
             code=-99,
-            message=str(e),
-            payload=""
+            message="Image prediction failed: Cannot extract features from the image.",
+            payload=str(e)
         )
 
 if __name__ == '__main__':
