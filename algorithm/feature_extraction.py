@@ -9,7 +9,7 @@ import cv2
 
 #init default values
 
-#example of accepted values, set it in run.py
+#example of accepted values, set it in start.py
 #DATASET_PATH = '../dataset/raw/*.jpg'
 #OUTPUT_FILE = "all_features.csv"
 #DATASET_PATH = '../dataset/testing/gambar_ttrpld.jpg'

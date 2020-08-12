@@ -4,7 +4,7 @@ KlasifikasiNilam adalah software backend yang berfungsi mengklasifikasikan citra
 
 ## Kebutuhan
 
-* Minimal menggunakan Python versi 3.x (disarankan 3.8)
+* Minimal menggunakan Python versi 3.8.x
 * Memahami penggunaan virtualenvironment (venv)
 
 Note: Gunicorn hanya bisa digunakan di OS berbasis Linux.
