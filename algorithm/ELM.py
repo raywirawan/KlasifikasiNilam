@@ -45,12 +45,8 @@ def getPrediction(TRAINING_FILE, TESTING_FILE, HIDDEN_NODES_SIZE):
 
     return_value = []
     return_value.append(TRAINING_FEATURES[1][np.argmax(value)]) #returns the predicted class of the input
-    confidence_value = value[0][np.argmax(value)]
-    
-    #for display purpose, preventing confidence from being more than 100%
-    confidence_value = confidence_value if (confidence_value <= 1.0) else 1.0
-    
-    return_value.append("{:.2%}".format(confidence_value))
+    xp = value[0][np.argmax(value)] if (value[0][np.argmax(value)] <= 1.0) else 1.0
+    return_value.append("{:.2%}".format(xp))
     return_value.append(str(value[0][np.argmax(value)]))
 
     print("Prediction completed!")
